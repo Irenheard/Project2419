@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title> <3 </title>
+    <link rel = "stylesheet" href = "stylesheet.css">
+    <link id = "g5styl e" rel = "stylesheet" href = "irenheard.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">  
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <div class = "topnav" id = "myTopnav">
+      <a href = "index.html" class = "active1">Project</a>
+      <a href = "methodology.html">Methodology</a>
+      <a href = "stats.html">Stats</a>
+      <a href = "solution.html">Experience Builder</a>
+      <a href = "team.html">The Team</a>
+
+      <a href = "javascript:void(0);" class = "icon" onclick = "myFunction()">&#9776;</a>
+    </div>
+
+    <!-- Header -->
+    <header class = "imageHeader" >
+      <div style = "background-color: #00000083;">
+        <h1 class = "header-start"> Man VS Machine: Landuse Classification with<br> Deep Learning for Kawartha Conservation </h1>
+        <p class = "header-Middle">Project 2419</p> 
+        <p class = "header-end">Eofor Irenheard </p>
+      </div>
+    </header>
+
+    <!-- Page content -->
+      <div class = "w3-container w3-padding-32 text-dive" id = "projects">
+        <h1>Project 2419</h1>
+          <h3>Project Abstract</h3>
+            <p>
+              Kawartha Conservation is a watershed-based conservation authority that was established in 1979. They manage the natural resources features within the 4800 square kilometers of land within their watershed boundary. Part of their responsibilities include monitoring the changes in the environment using the Ecological Land Classification (ELC) system by recording the ecosite units. The main objectives of this project were to use Kawartha Conservation’s previous Ecological Land Classification data to create deep learning data training sets, and train and assess an Esri deep learning model that could assist Kawartha Conservation with the Ecological Land Classification process. The team achieved this using the tools in ArcGIS Pro and found that the created deep learning model could not classify the ecosites in a way that would be beneficial to Kawartha Conservation. Despite these results, this project will still benefit Kawartha Conservation as it provided a valuable insight into the limits of image classification.
+            </p>
+          <h3>Background Information</h3>
+            <p>
+              Kawartha Conservation aims to monitor the changes in the land use throughout their watershed as the land use impacts aspects that they must monitor, such as water quality, quantity, holding capacity, and hydrology. Land use is also a factor in soil erosion and flood hazards, which Kawartha Conservation is mandated to regulate.   
+            </p>
+            <p>
+              As of now, Kawartha Conservation determines and delineates the different ecosites through manual aerial imagery interpretation. This is a laborious and time-consuming process. As per the clients’ request, this project created a deep learning model and sorted out a workflow to automatically classify imagery and delineate the ELC boundaries, to help aid Kawartha Conservation with the ELC process.  
+            </p> 
+          <h3>What's Ecological Land Classification?</h3>
+            <p>
+              The Ecological Land Classification (ELC) system is a system used in Ontario designed to categorize the land into different classifications based on the natural features of the land, such as climate, bedrock type, vegetation, and soil type. There are six units to the ELC system:
+              <ul>
+                <li>Ecozones</li>
+                <li>Ecoregions</li>
+                <li>Ecodistricts</li>
+                <li>Ecosections</li>
+                <li>Ecosites</li>
+                <li>Ecoelements</li>
+              </ul>
+            </p>
+            <p>
+              Ecozones, Ecozones are the largest unit, while ecoelements are the smallest unit. The larger units are composed of multiple smaller units. For example, each ecozone will have multiple ecoregions within it, and each of those ecoregions will have multiple ecodistricts within it. This pattern continues down until the ecoelements, as there are not any smaller units. Ecosites are important as they are used by conservation authorities for planning and conservation efforts, among other things. 
+            </p>
+          <h3>What's Deep Learning?</h3>
+            <p>
+              Deep learning is a subset of machine learning. Both technologies are capable of analyzing data and making decisions based off the data, however, deep learning is a little more complex than traditional machine learning. Deep learning analyzes data on a deeper level, using neural networks that have multiple layers to them. Each layer analyzes the data a little differently, looking for trends. Deep learning has a variety of applications within GIS, as it can be used for image classification, object detection, semantic segmentation, instance segmentation, panoptic segmentation, and image translation.  
+            </p>
+      </div>
+    <!-- End page content -->
+
+
+    <footer class = "w3-center w3-padding-16 bottom" id = "footer">
+      <h2 id = "FooterTitle">Eofor Irenheard</h2>
+      <ul id = "Footer-ul">
+        <li class = "Ft_Inline_Item"> <a class = "FT-Link" href = "about.html">Project</a></li>
+        <li class = "Ft_Inline_Item"> <a class = "FT-Link" href = "methodology.html">Methodology</a></li>
+        <li class = "Ft_Inline_Item"> <a class = "FT-Link" href = "stats.html">Stats</a></li>
+        <li class = "Ft_Inline_Item"> <a class = "FT-Link" href = "solution.html">Experience Builder</a></li>
+        <li class = "Ft_Inline_Item"> <a class = "FT-Link" href = "team.html">The Team</a></li>
+      </ul>
+
+      <h3 id = "h3_ft"> Contact </h3>
+
+      <div class = "FT-row">
+        <div class = "FT-columnA">
+          <p><a href = "https://www.linkedin.com/in/eofor-irenheard-079579293/" target = "_blank">LinkedIn</a> </p>
+        </div>
+
+        <div class = "FT-columnB">
+          <!-- https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
+          <p><a href = "https://www.instagram.com/eofor_i/" target = "_blank" class = "fa fa-instagram"></a> @Eofor_I </p>
+        </div>
+      </div>
+      <!-- https://careerkarma.com/blog/html-copyright-symbol/-->
+      <p id = "Copyright">&copy; Eofor Irenheard 2024. Easy peasy</p>
+    </footer>
+    <script src = "jsMoment.js"></script>
+  </body>
+</html>
